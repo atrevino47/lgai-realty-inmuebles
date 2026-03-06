@@ -6,8 +6,9 @@ import Link from 'next/link';
 const navLinks = [
   { label: 'Inicio', href: '/' },
   { label: 'Propiedades', href: '/propiedades' },
+  { label: 'Servicios', href: '/servicios' },
   { label: 'Nosotros', href: '/nosotros' },
-  { label: 'FAQ', href: '/preguntas-frecuentes' },
+  { label: 'Contacto', href: '/contacto' },
 ];
 
 export default function Header() {

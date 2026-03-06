@@ -1,6 +1,6 @@
 'use client';
 
-const WA_NUMBER = '5218111707394';
+import { WA_NUMBER } from '@/lib/constants';
 
 export default function WhatsAppFloat() {
   const url = `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent('Hola, me interesa una propiedad de LGAI Realty Inmuebles. ¿Podrían darme más información?')}`;

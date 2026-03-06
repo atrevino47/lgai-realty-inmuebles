@@ -1,6 +1,6 @@
 'use client';
 
-const WA_NUMBER = '5218111707394';
+import { WA_NUMBER } from '@/lib/constants';
 
 export default function WhatsAppButton({ property, className = '', label = 'Contactar por WhatsApp' }) {
   const message = property
